@@ -1,6 +1,5 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-
 import {
   CCloseButton,
   CSidebar,
@@ -10,10 +9,7 @@ import {
   CSidebarToggler,
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
-
 import { AppSidebarNav } from './AppSidebarNav'
-
-// sidebar nav config
 import navigation from '../_nav'
 
 const AppSidebar = () => {
@@ -34,7 +30,7 @@ const AppSidebar = () => {
     >
       <CSidebarHeader className="border-bottom">
         <CSidebarBrand to="/">
-          <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>SMS Student</span> {/* Replace with the desired text */}
+          <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Student App</span>
         </CSidebarBrand>
         <CCloseButton
           className="d-lg-none"
