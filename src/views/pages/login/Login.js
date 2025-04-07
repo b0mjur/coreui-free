@@ -57,7 +57,7 @@ const Login = () => {
               <CCard className="p-4">
                 <CCardBody>
                   <CForm onSubmit={handleLogin}>
-                    <h1>Login to SMS</h1>
+                    <h1>Login to SMS!</h1>
                     <p className="text-body-secondary">Sign In to your account</p>
                     {error && <div style={{ color: 'red' }}>{error}</div>}
                     <CInputGroup className="mb-3">
